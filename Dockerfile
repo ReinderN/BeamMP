@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
         libssl3 \
+        liblua5.3-0 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN groupadd -r beammp && useradd -r -g beammp -d /beammp -s /bin/sh beammp

@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-BINARY=/usr/local/bin/BeamMP-Server
-DOWNLOAD_URL="https://github.com/BeamMP/BeamMP-Server/releases/latest/download/BeamMP-Server"
+BINARY=/beammp/BeamMP-Server
+DOWNLOAD_URL="https://github.com/BeamMP/BeamMP-Server/releases/latest/download/BeamMP-Server.debian.12.x86_64"
 
 echo "[entrypoint] Downloading latest BeamMP-Server..."
 curl -fsSL "$DOWNLOAD_URL" -o "$BINARY"
