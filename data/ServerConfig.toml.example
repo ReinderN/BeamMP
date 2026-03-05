@@ -1,0 +1,56 @@
+[General]
+# Server name shown in the in-game server browser
+Name = "BeamMP Server"
+
+# Port to listen on (TCP + UDP). Must be forwarded on your router/firewall.
+Port = 30814
+
+# Maximum number of players allowed at once
+MaxPlayers = 8
+
+# Maximum number of vehicles per player (0 = unlimited)
+MaxCars = 1
+
+# Map to load. Uses BeamNG.drive level paths.
+# Common maps:
+#   /levels/gridmap_v2/info.json
+#   /levels/small_island/info.json
+#   /levels/italy/info.json
+#   /levels/west_coast_usa/info.json
+#   /levels/johnson_valley/info.json
+#   /levels/derby/info.json
+#   /levels/driver_training/info.json
+Map = "/levels/gridmap_v2/info.json"
+
+# Short description shown in the server browser
+Description = "A private BeamMP server"
+
+# Comma-separated tags for filtering (e.g. "Freeroam,Casual")
+Tags = "Freeroam"
+
+# Enable verbose debug logging
+Debug = false
+
+# true  = server is private (not listed publicly, invite via direct IP)
+# false = server is listed in the public browser
+Private = true
+
+# Log player chat to server console/log file
+LogChat = true
+
+# Path to the resources folder (relative to working directory)
+ResourceFolder = "Resources"
+
+# Authentication key — required to run the server.
+# Get yours at: https://beammp.com/keymaster
+AuthKey = ""
+
+[Misc]
+# Send anonymous error/crash reports to BeamMP developers
+SendErrors = true
+
+# Show a message in-game when an error report is sent
+SendErrorsShowMessage = true
+
+# Disable the built-in BeamMP update checker
+ImScaredOfUpdates = false

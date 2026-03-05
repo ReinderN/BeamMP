@@ -1,0 +1,5 @@
+# Contains your AuthKey — never commit this
+data/ServerConfig.toml
+
+# Mods can be large — manage them separately
+data/Resources/

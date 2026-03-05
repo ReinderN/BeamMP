@@ -1,0 +1,12 @@
+services:
+  beammp:
+    image: ghcr.io/YOUR_GITHUB_USERNAME/beammp-server:latest
+    # To build locally instead:
+    # build: .
+    ports:
+      - "30814:30814/tcp"
+      - "30814:30814/udp"
+    volumes:
+      - ./data/ServerConfig.toml:/beammp/ServerConfig.toml:ro
+      - ./data/Resources:/beammp/Resources
+    restart: unless-stopped
