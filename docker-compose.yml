@@ -7,6 +7,5 @@ services:
       - "30814:30814/tcp"
       - "30814:30814/udp"
     volumes:
-      - ./data/ServerConfig.toml:/beammp/ServerConfig.toml:ro
-      - ./data/Resources:/beammp/Resources
-    restart: unless-stopped
+      - ./data:/beammp:z
+    restart: on-failure

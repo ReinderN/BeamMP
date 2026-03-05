@@ -1,5 +1,8 @@
 # Contains your AuthKey — never commit this
 data/ServerConfig.toml
 
+# Downloaded at container start — platform-specific binary
+data/BeamMP-Server
+
 # Mods can be large — manage them separately
 data/Resources/
