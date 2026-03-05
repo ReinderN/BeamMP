@@ -1,6 +1,6 @@
 services:
   beammp:
-    image: ghcr.io/YOUR_GITHUB_USERNAME/beammp-server:latest
+    image: ghcr.io/ReinderN/beammp-server:latest
     # To build locally instead:
     # build: .
     ports:
